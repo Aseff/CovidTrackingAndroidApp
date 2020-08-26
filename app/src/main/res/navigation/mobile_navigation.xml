@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home"
+    >
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.covid19.Fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home2">
+
+
+    </fragment>
+<!--    <fragment-->
+<!--        android:id="@+id/nav_home_second"-->
+<!--        android:name="com.example.covid19.Fragments.HomeFragment"-->
+<!--        android:label="@string/home_second"-->
+<!--        tools:layout="@layout/fragment_home2">-->
+<!--        <action-->
+<!--            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"-->
+<!--            app:destination="@id/nav_home" />-->
+
+<!--        <argument-->
+<!--            android:name="myArg"-->
+<!--            app:argType="string" />-->
+<!--    </fragment>-->
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.covid19.Fragments.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.covid19.Fragments.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.covid19.Fragments.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home2" />
+    <fragment
+        android:id="@+id/news"
+        android:name="com.example.covid19.Fragments.NewsFragment"
+        android:label="@string/title_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/maps"
+        android:name="com.example.covid19.Fragments.MapFragment"
+        android:label="@string/title_maps"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/hospital"
+        android:name="com.example.covid19.Fragments.HospitalFragment"
+        android:label="@string/title_hospital"
+        tools:layout="@layout/fragment_hospital" />
+
+    <fragment
+        android:id="@+id/notifications"
+        android:name="com.example.covid19.Fragments.NotifFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/users"
+        android:name="com.example.covid19.Fragments.UserFragment"
+        android:label="@string/title_Users"
+        tools:layout="@layout/fragment_users" />
+
+
+
+
+</navigation>

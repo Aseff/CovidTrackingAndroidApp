@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/graylight"
+    android:orientation="vertical"
+    tools:context=".Activities.UserProfile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/gradient_end_color">
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_photo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/userphoto" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nameTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Name"
+                    android:paddingTop="30dp"
+                    android:paddingLeft="30dp"
+                    android:textColor="@color/graylight"
+                    android:textSize="25dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_email_black_24dp" />
+
+            <TextView
+                android:id="@+id/emailTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="email"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_phone_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="+99450 825 22 27"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_local_hospital_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="Add to group"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:background="@color/gradient_end_color"
+        android:src="@drawable/ic_edit_black_24dp" />
+    <!--        -->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="360dp"-->
+    <!--        android:background="@color/gradient_end_color"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        &lt;!&ndash;        <TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:id="@+id/profile_name"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_gravity="center_horizontal"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_marginTop="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:text="Wiliam Snoe"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:textColor="#fff"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:textSize="21sp"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:textStyle="bold" />&ndash;&gt;-->
+
+
+    <!--        <com.google.android.material.textfield.TextInputLayout-->
+    <!--            android:layout_width="299dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@+id/profile_photo"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toEndOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent">-->
+
+    <!--            <com.google.android.material.textfield.TextInputEditText-->
+    <!--                android:id="@+id/displayNameEditText"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:hint="Display Name" />-->
+    <!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+
+    <!--    </LinearLayout>-->
+
+    <!--    </RelativeLayout>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="360dp"-->
+    <!--        android:layout_height="237dp"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:paddingLeft="25dp">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="36dp"-->
+    <!--                android:layout_height="36dp"-->
+    <!--                android:src="@drawable/ic_email_black_24dp" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center_vertical"-->
+    <!--                android:paddingLeft="20dp"-->
+    <!--                android:text="Wiliam@gmail.com"-->
+    <!--                android:textStyle="bold" />-->
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="25dp"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:paddingLeft="25dp">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="36dp"-->
+    <!--                android:layout_height="36dp"-->
+    <!--                android:src="@drawable/ic_phone_black_24dp" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center_vertical"-->
+    <!--                android:paddingLeft="20dp"-->
+    <!--                android:text="+266 225 225"-->
+    <!--                android:textStyle="bold" />-->
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="25dp"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:paddingLeft="25dp">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="36dp"-->
+    <!--                android:layout_height="36dp"-->
+    <!--                android:src="@drawable/ic_local_hospital_black_24dp" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center_vertical"-->
+    <!--                android:paddingLeft="20dp"-->
+    <!--                android:text="Add to group"-->
+    <!--                android:textStyle="bold" />-->
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="25dp"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:paddingLeft="25dp">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="36dp"-->
+    <!--                android:layout_height="36dp"></ImageView>-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center_vertical"-->
+    <!--                android:paddingLeft="20dp"-->
+    <!--                android:text="Show all comments"-->
+    <!--                android:textStyle="bold" />-->
+    <!--        </LinearLayout>-->
+    <!--    </LinearLayout>-->
+
+
+    <!--    <Button-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+
+    <!--        android:background="@drawable/btn_gradient_style"-->
+    <!--        android:text="Follow Me"-->
+    <!--        android:textColor="#fff" />-->
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+package com.example.covid19.Activities;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.webkit.WebView;
+
+import com.example.covid19.R;
+
+public class MaskWeb extends AppCompatActivity {
+    private WebView webView;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_mask_web);
+        webView=findViewById(R.id.web_view);
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.loadUrl("https://www.who.int/emergencies/diseases/novel-Coronavirus-2019/advice-for-public/when-and-how-to-use-masks?gclid=CjwKCAjw2a32BRBXEiwAUcugiHyhgU_zIB_bP7NFQI7G7Zc68BgjWnOJAwtuBKyOcyUc9RcP-dMOxBoC5J8QAvD_BwE");
+    }
+}

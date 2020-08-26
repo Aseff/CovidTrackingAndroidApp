@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">Covid19</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_news">News</string>
+    <string name="menu_hospital">Hospital</string>
+    <string name="menu_notification">Notification</string>
+
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Chat List</string>
+    <string name="title_activity_home_layout">HomeLayout</string>
+    <string name="title_activity_bottom_bar">BottomBar</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_chat">Chats</string>
+    <string name="title_Users">Patients</string>
+    <string name="title_news">News</string>
+    <string name="title_people">Patients</string>
+    <string name="title_maps">Maps</string>
+    <string name="title_hospital">Self-declaration</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="symptom_text">
+
+        "Signs and symptoms of coronavirus disease 2019 (COVID-19) may appear two to 14 days after exposure. This time after exposure and before having symptoms is called the incubation period. Common signs and symptoms can include:
+
+Fever
+Cough
+Tiredness
+Other symptoms can include:
+
+Shortness of breath or difficulty breathing
+Muscle aches
+Chills
+Sore throat
+Loss of taste or smell
+Headache
+Chest pain"
+
+
+
+
+    </string>
+    <string name="transmitted_text">"Droplets.\n\n" "When an infected person coughs, sneezes, or talks, droplets with the virus fly into the air from their nose or mouth. Anyone who is within 6 feet of that person can breathe those droplets into their lungs.\n\n"
+        "Aerosolized transmission.\n\n"  "Research shows that the virus can live in the air for up to 3 hours. When you breathe air that has the virus floating in it, it gets into your lungs.\n\n"
+        "Surface transmission.\n\n" "Another way to catch the new corona virus is when you touch surfaces that someone who has the virus has coughed or sneezed on. You may touch a counter top or doorknob that is  contaminated and then touch your nose, mouth, or eyes. The virus can live on surfaces like plastic and stainless steel for 2 to 3 days. To stop it, clean and disinfect all counters, knobs, and other surfaces you and your family touch several times a day.\n\n"
+        "Fecal-oral.\n\n" "Studies also suggest that virus particles can be found in infected people's poop. But experts aren't sure whether the infection can spread through contact with an infected person's stool. If that person uses the bathroom and doesn't wash their hands, they could infect things and people that they touch."
+
+    </string>
+
+    <string name="prevent_text">
+
+        "Wash your hands often!\n\n"
+        "Wash your hands often with soap and water for at least 20 seconds especially after you have been in a public place, or after blowing your nose, coughing, or sneezing.\n"
+        "If soap and water are not readily available, use a hand sanitizer that contains at least 60% alcohol. Cover all surfaces of your hands and rub them together until they feel dry.\n"
+        "Avoid touching your eyes, nose, and mouth with unwashed hands.\n\n"
+
+        "Avoid close contact\n\n"
+        "Avoid close contact with people who are sick, even inside your home. If possible, maintain 6 feet between the person who is sick and other household members."\n
+        "Put distance between yourself and other people outside of your home.\n"
+        "Remember that some people without symptoms may be able to spread virus.\n"
+        "Stay at least 6 feet (about 2 arms’ length) from other people.\n"
+        "Do not gather in groups.\n"
+        "Stay out of crowded places and avoid mass gatherings.\n"
+        "Keeping distance from others is especially important for people who are at higher risk of getting very sick.\n"
+
+        "Cover your mouth and nose with a cloth face cover when around others.\n\n"
+        "* You could spread COVID-19 to others even if you do not feel sick.\n"
+        "Everyone should wear a cloth face cover when they have to go out in public, for example to the grocery store or to pick up other necessities.\n"
+        "Cloth face coverings should not be placed on young children under age 2, anyone who has trouble breathing, or is unconscious, incapacitated or otherwise unable to remove the mask without assistance.\n"
+        "The cloth face cover is meant to protect other people in case you are infected.\n"
+        "Do NOT use a facemask meant for a healthcare worker.\n"
+        "Continue to keep about 6 feet between yourself and others. The cloth face cover is not a substitute for social distancing.\n\n"
+
+        "Cover coughs and sneezes\n\n"
+
+        "If you are in a private setting and do not have on your cloth face covering, remember to always cover your mouth and nose with a tissue when you cough or sneeze or use the inside of your elbow.\n"
+        "Throw used tissues in the trash.\n"
+        "Immediately wash your hands with soap and water for at least 20 seconds. If soap and water are not readily available, clean your hands with a hand sanitizer that contains at least 60% alcohol.\n"
+
+        "Clean and disinfect\n\n"
+        "Clean AND disinfect frequently touched surfaces daily. This includes tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks.\n"
+        "If surfaces are dirty, clean them. Use detergent or soap and water prior to disinfection.\n"
+        "Then, use a household disinfectant. Most common EPA-registered household disinfectantsexternal icon will work.\n"
+
+        "Monitor Your Health\n\n"
+        "Be alert for symptoms. Watch for fever, cough, shortness of breath, or other symptoms of COVID-19.\n"
+        "Especially important if you are running essential errands, going into the office or workplace, and in settings where it may be difficult to keep a physical distance of 6 feet.\n"
+        "Take your temperature if symptoms develop.\n"
+        "Don’t take your temperature within 30 minutes of exercising or after taking medications that could lower your temperature, like acetaminophen.\n"
+    </string>
+    <string name="mask_text">
+
+
+        
+    </string>
+
+
+    <string name="large_text">
+        "Marburg virus.\n\n"
+
+
+
+        "Scientists identified Marburg virus in 1967, when small outbreaks occurred among lab workers in Germany who were exposed to infected monkeys imported from Uganda."
+        "Marburg virus is similar to Ebola in that both can cause hemorrhagic fever, meaning that infected people develop high fevers and bleeding throughout the body that can lead to shock, organ failure and death"
+        "The mortality rate in the first outbreak was 25%, but it was more than 80% in the 1998-2000 outbreak in the Democratic Republic of Congo, as well as in the 2005 outbreak in Angola, according to the World Health Organization (WHO).\n\n"
+
+        "Ebola virus.\n\n"
+
+        "The first known Ebola outbreaks in humans struck simultaneously in the Republic of the Sudan and the Democratic Republic of Congo in 1976. Ebola is spread through contact with blood or other body fluids, or tissue from infected people or animals"
+        "The known strains vary dramatically in their deadliness, Elke Muhlberger, an Ebola virus expert and associate professor of microbiology at Boston University, told Live Science.\n "
+        "One strain, Ebola Reston, doesn't even make people sick. But for the Bundibugyo strain, the fatality rate is up to 50%, and it is up to 71% for the Sudan strain, according to WHO."
+         "The outbreak underway in West Africa began in early 2014, and is the largest and most complex outbreak of the disease to date, according to WHO.\n\n"
+
+        "Rabies\n\n"
+
+        "Although rabies vaccines for pets, which were introduced in the 1920s, have helped make the disease exceedingly rare in the developed world, this condition remains a serious problem in India and parts of Africa."
+        "It destroys the brain, it's a really, really bad disease," Muhlberger said. "We have a vaccine against rabies, and we have antibodies that work against rabies, so if someone gets bitten by a rabid animal we can treat this person,she said.However, she said."
+        "if you don't get treatment, there's a 100% possibility you will die\n\n"
+
+        "HIV\n\n"
+
+        "In the modern world, the deadliest virus of all may be HIV. "It is still the one that is the biggest killer," said Dr. Amesh Adalja, an infectious disease physician and spokesman for the Infectious Disease Society of America."
+        "An estimated 32 million people have died from HIV since the disease was first recognized in the early 1980s.\n"
+        "Powerful antiviral drugs have made it possible for people to live for years with HIV. But the disease continues to devastate many low- and middle-income countries, where 95% of new HIV infections occur."
+        "Nearly 1 in every 25 adults within the WHO African region is HIV-positive, accounting for more than two-thirds of the people living with HIV worldwide. \n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Smallpox\n\n"
+
+        "In 1980, the World Health Assembly declared the world free of smallpox. But before that, humans battled smallpox for thousands of years, and the disease killed about 1 in 3 of those it infected. It left survivors with deep, permanent scars and, often, blindness."
+        "Mortality rates were far higher in populations outside of Europe, where people had little contact with the virus before visitors brought it to their regions. "
+        " For example, historians estimate 90% of the native population of the Americas died from smallpox introduced by European explorers. In the 20th century alone, smallpox killed 300 million people.\n\n"
+
+        "Hantavirus\n\n"
+
+        "Hantavirus pulmonary syndrome (HPS) first gained wide attention in the U.S. in 1993, when a healthy, young Navajo man and his fiancée living in the Four Corners area of the United States died within days of developing shortness of breath. A few months later, health authorities isolated hantavirus from a deer mouse living in the home of one of the infected people.\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "Previously, a different hantavirus caused an outbreak in the early 1950s, during the Korean War, according to a 2010 paper in the journal Clinical Microbiology Reviews. More than 3,000 troops became infected, and about 12% of them died..\n\n"
+
+        "MERS-CoV .\n\n"
+
+        "The virus that causes Middle East respiratory syndrome, or MERS, sparked an outbreak in Saudi Arabia in 2012 and another in South Korea in 2015. The MERS virus belongs to the same family of viruses as SARS-CoV and SARS-CoV-2, and likely originated in bats, as well. The disease infected camels before passing into humans and triggers fever, coughing and shortness of breath in infected people. \n\n"
+
+
+    </string>
+    <string name="title_activity_nearby_clinic_location">Map</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_scrolling_symptom">ScrollingSymptom</string>
+    <string name="title_activity_transmitted_">Transmitted_Activity</string>
+    <string name="title_activity_prevent_">Prevent_Activity</string>
+    <string name="title_activity_mask_scrolling">MaskScrolling</string>
+    <string name="title_activity_hospital_bottom_navigation">HospitalBottomNavigation</string>
+</resources>

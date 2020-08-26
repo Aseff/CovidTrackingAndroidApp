@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "702501335982",
+    "firebase_url": "https://epied-edc4e.firebaseio.com",
+    "project_id": "epied-edc4e",
+    "storage_bucket": "epied-edc4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702501335982:android:3ff2be0d9011ddbda1ce3f",
+        "android_client_info": {
+          "package_name": "com.example.covid19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702501335982-mtbsdpmi3jrmk71o01ug90q0ef4f9em1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.covid19",
+            "certificate_hash": "f63e278c8539bde5c3fcd94441b1b65e0655648b"
+          }
+        },
+        {
+          "client_id": "702501335982-oa3gm4mo4jo5h83k0okqtfmmon6m1k2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFDe5a7Zfj1dh-_e3P2h5Yvd6H1pD8364"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702501335982-oa3gm4mo4jo5h83k0okqtfmmon6m1k2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
