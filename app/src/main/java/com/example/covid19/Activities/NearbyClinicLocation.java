@@ -97,7 +97,7 @@ public class NearbyClinicLocation extends FragmentActivity implements OnMapReady
         //
 
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(), "AIzaSyCXRm7yDm08Q9W2vtRsbqDUsAFyCmFh_OY");
+            Places.initialize(getApplicationContext(), "place key");
         }
         placesClient=Places.createClient(this);
     }
@@ -196,7 +196,7 @@ public class NearbyClinicLocation extends FragmentActivity implements OnMapReady
         googlePlacesUrl.append("&radius=" + PROXIMITY_RADIUS);
         googlePlacesUrl.append("&type=" + nearbyPlace);
         googlePlacesUrl.append("&sensor=true");
-        googlePlacesUrl.append("&key=" + "AIzaSyCXRm7yDm08Q9W2vtRsbqDUsAFyCmFh_OY");
+        googlePlacesUrl.append("&key=" + "key");
         Log.d("NearbyClinicLocation", "url=" + googlePlacesUrl.toString());
         return (googlePlacesUrl.toString());
     }
